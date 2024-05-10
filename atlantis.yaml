@@ -1,0 +1,7 @@
+version: 3
+projects:
+
+  - dir: skyland-test/us-east-1/ecr/test
+    apply_requirements: [approved]
+    autoplan:
+      when_modified: [ "*.tf" ]
