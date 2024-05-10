@@ -1,4 +1,3 @@
-#fest
 #dffgfdfd
 #gfg
 resource "aws_ecr_repository" "atlantis" {
